@@ -27,10 +27,10 @@
     <![endif]-->
   </head>
   <body>
-    
+
     <div class="container-fluid">
       <div class="row">
-        
+
         <div class=".col-xs-12 .col-md-8">
 
           <div class="embed-responsive embed-responsive-16by9">
@@ -42,28 +42,28 @@
               Welcome!
             </div>
             <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
-          </div>        
+          </div>
 
 
         </div>
       </div>
     </div>
 
-      
+
     <div class="container">
       <div class="row">
         <div class="col-xs-6 col-md-6">
           <p>
           <h3>Yosemite National Park</h3>
-          
+
           <div class="ltext">
             The park, which is managed by the National Park Service, covers an area of 747,956 acres <b> 3,026.87 km2 </b> and reaches across the western slopes of the Sierra Nevada mountain chain. Over <b> 3.7 million </b> people visit Yosemite each year
           </p>
           </div>
         </div>
-        
+
         <div class="col-xs-6 col-md-6">
-          <img src="img/yosemite-badge.png">
+          <img class="logo" src="img/yosemite-badge.png">
         </div>
 
       </div>
@@ -72,20 +72,7 @@
 
 
   <div class="container-fluid">
-    <div id="map">
-      <script>
-        var map = new GMaps({
-          el: '#map',
-          lat: 37.865101,
-          lng: -119.538329,
-          scrollwheel: false,
-          navigationControl: false,
-          mapTypeControl: false,
-          scaleControl: false,
-          draggable: false
-        });
-      </script>
-    </div>
+    <div id="map"></div>
   </div>
 
   <div class="container">
@@ -132,5 +119,18 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="http://f.vimeocdn.com/js/froogaloop2.min.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      var map = new GMaps({
+        el: '#map',
+        height: 400,
+        lat: 37.865101,
+        lng: -119.538329,
+        scrollwheel: false,
+        navigationControl: false,
+        mapTypeControl: false,
+        scaleControl: false,
+        draggable: false
+      });
+    </script>
   </body>
 </html>

@@ -67,7 +67,7 @@ span.glyphicon.glyphicon-arrow-down.glow {
     color: white;
 }
 
-img {
+.logo {
     max-height: 250px;
     display: block;
     margin: 0 auto;
@@ -91,8 +91,8 @@ img {
 
 
 .container-fluid.footer {
-margin-top: 40px;
-text-align: center;
-background-color: rgb(71, 71, 71);
-color: white;
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgb(71, 71, 71);
+    color: white;
 }
