@@ -1,0 +1,85 @@
+body {
+    background-color: rgba(94, 94, 94, 1);
+}
+
+ .navbar-default {
+ 	margin-bottom: 0px;
+ 	background-color: #EAE9E9;
+ }
+
+ .navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand {float:none;}
+
+.transparent {
+    position:absolute;
+    width:100%;
+    top:0px;
+    bottom: 0px;
+    padding-bottom: inherit;
+}
+
+.title {
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Montserrat', sans-serif;
+	color: White;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	position: relative;
+  	top: 45%;
+  	transform: translateY(-50%);
+}
+
+.embed-responsive-16by9 {
+	top: 0px;
+}
+
+span.glyphicon.glyphicon-arrow-down {
+    -webkit-transition: text-shadow 1s linear;
+    -moz-transition: text-shadow 1s linear;
+    -ms-transition: text-shadow 1s linear;
+    -o-transition: text-shadow 1s linear;
+    transition: text-shadow 1s linear;
+
+}
+span.glyphicon.glyphicon-arrow-down:hover,
+span.glyphicon.glyphicon-arrow-down.glow {
+    text-shadow: 0 0 20px white;
+}
+
+.glyphicon {
+	position: absolute;
+	bottom: 10%;
+	font-family: 'Glyphicons Halflings';
+	margin-left: 50%;
+	font-size: 40px;
+	color: white;
+	top: initial;
+}
+
+.container {
+    margin-top: 30px;
+    color: white;
+}
+
+img {
+    max-height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ltext {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+#map {
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+}
